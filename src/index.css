@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans:wght@400;700&display=swap');
+
+:root {
+  --tertiary: hsl(180, 52%, 96%);
+  --primary: #f3613c;
+  --light: #fff;
+  --slight: #424242;
+  --dark: #000;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+body {
+  /* font-family: 'PT Sans', sans-serif; */
+  position: relative;
+  background-color: var(--tertiary);
+}
